@@ -30,6 +30,11 @@ aside{
     margin-top: 20px;
     margin-left: 1%;
     padding: 20px;
+
+}
+
+aside > img {
+    width: 100px;
 }
 
 main{

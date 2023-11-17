@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px) {}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Appliquer une police de caractères différente pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    width:100%
+    
+
+}
+
+/* En-tête de la page */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+aside{
+    width:20% ;
+    height: 80%;
+    float: left;
+    background-color: rgb(31, 19, 99, 0.2);
+    margin-top: 20px;
+    margin-left: 1%;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    width: 76%;
+    height: 80%;
+    flex-direction: column;
+    
+}
+
+
+/* Titre principal */
+h1 {
+    font-size: 2em;
+}
+
+
+/* Style de la liste d'expérience professionnelle, d'éducation et de compétences */
+ul {
+    list-style-type: none;
+}
+
+/* Style des éléments de liste d'expérience professionnelle, d'éducation et de compétences */
+li {
+    margin-bottom: 15px;
+}
+
+/* Style pour les textes en gras */
+strong {
+    font-weight: bold;
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ajout d'un style pour la description */
+p {
+    line-height: 1.5;
+}
+
+/* Ajout d'un style pour la section des compétences */
+
+main > section {
+    background-color: rgb(31, 19, 99, 0.2);
+    margin-top: 20px;
+    margin-left: 1%;
+    padding:20px ;
+}
